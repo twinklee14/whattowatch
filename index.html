@@ -1,44 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>What Should you Watch?</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>WHAT TO WATCH</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
-  <div class="container">
-    <h1> WHAT TO WATCH?</h1>
-    <h4>A one stop solution to end your quest for entertainment </h4>
-    <div class="controls">
-      <input type="text" id="titleInput" placeholder="Enter a movie/show"/>
-      <select id="genreSelect">
-        <option value="Any">Select Genre</option>
-        <option value="Comedy">Comedy</option>
-        <option value="Drama">Drama</option>
-        <option value="Thriller">Thriller</option>
-      </select>
-      <select id="vibeSelect">
-        <option value="Any">Select Your Vibe</option>
-        <option value="Chill">Chill</option>
-        <option value="Intense">Intense</option>
-        <option value="Feel-Good">Feel-Good</option>
-        <option value="'Sad">Sad</option>
-      </select>
-      <button onclick="addMovie()">➕ Add</button>
-      <button onclick="pickMovie()">🎲 Pick One</button>
-    </div>
 
-    <h2>📋 Your Watchlist:</h2>
-    <ul id="watchlist"></ul>
-
-    <div id="resultBox" class="hidden">
-      <h2>🎉 You Should Watch:</h2>
-      <p id="pickedTitle"></p>
+  <div class="topnav">
+    <a class="active" href="#">WHAT TO WATCH TODAY?</a>
+    <div class="search-container">
+      <form role="search" id="form">
+        <input type="search" id="query" name="q" placeholder="Search for a movie">
+      </form>
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <div style="padding-left:16px">
+  
+  <section id="section">
+<!--     <div class="row">
+      <div class="column">
+        <div class="card">
+          <center><img src="#" id="image" class="thumbnail"></center>
+          <h3 id="title">Movie Title</h3>
+        </div>
+      </div>
+    </div> -->
+  </section>
+  
 </body>
+<script src="script.js"></script>
 </html>
