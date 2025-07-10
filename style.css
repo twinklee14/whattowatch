@@ -1,50 +1,73 @@
-body {
+* {
   font-family: 'Annai MN', 'Times New Roman', Times, serif, sans-serif;
-
-  padding: 4rem;
-  background: #fdf7f9;
-  background-image: url(https://imgs.search.brave.com/drMng5oCTW6JZwPnUkuR_MCqFKgwI5EznfXpPyBmCVQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mL2Y1/NjJhYWY0LTVkYmIt/NDYwMy1hMzJiLTZl/ZjZjMjIzMDEzNi9k/aDB3OHF2LTlkOGVl/NmIyLWI0MWEtNDY4/MS1hYjliLThhMjI3/NTYwZGM3NS5qcGcv/djEvZmlsbC93XzEy/ODAsaF83MjAscV83/NSxzdHJwL3RoZV9u/ZXRmbGl4X2xvZ2lu/X2JhY2tncm91bmRf/X2NhbmFkYV9fMjAy/NF9fX2J5X2xvZ29m/ZXZlcnl0X2RoMHc4/cXYtZnVsbHZpZXcu/anBnP3Rva2VuPWV5/SjBlWEFpT2lKS1Yx/UWlMQ0poYkdjaU9p/SklVekkxTmlKOS5l/eUp6ZFdJaU9pSjFj/bTQ2WVhCd09qZGxN/R1F4T0RnNU9ESXlO/alF6TnpOaE5XWXda/RFF4TldWaE1HUXlO/bVV3SWl3aWFYTnpJ/am9pZFhKdU9tRndj/RG8zWlRCa01UZzRP/VGd5TWpZME16Y3pZ/VFZtTUdRME1UVmxZ/VEJrTWpabE1DSXNJ/bTlpYWlJNlcxdDdJ/bWhsYVdkb2RDSTZJ/anc5TnpJd0lpd2lj/R0YwYUNJNklsd3Za/bHd2WmpVMk1tRmha/alF0TldSaVlpMDBO/akF6TFdFek1tSXRO/bVZtTm1NeU1qTXdN/VE0yWEM5a2FEQjNP/SEYyTFRsa09HVmxO/bUl5TFdJME1XRXRO/RFk0TVMxaFlqbGlM/VGhoTWpJM05UWXda/R00zTlM1cWNHY2lM/Q0ozYVdSMGFDSTZJ/anc5TVRJNE1DSjlY/VjBzSW1GMVpDSTZX/eUoxY200NmMyVnlk/bWxqWlRwcGJXRm5a/UzV2Y0dWeVlYUnBi/MjV6SWwxOS5MT1lL/U3hJRHFmUHdXSFIw/U1NKLXVnR1E2YkVD/RjB5TzZDbWMwRjI2/Q1Fz);
-  padding: 2rem;
-  color: #f6f3f4;
-  padding: 2.5rem;
-  max-width: 800px;
-  margin: auto;
-  display: flex;
+  box-sizing: border-box;
 }
 
-.container {
+body {
+  background-color: #530802;
+  font-family: sans-serif;
+}
 
-  background: rgb(0, 0, 0);
+h3 {
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #131720;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: white;
   text-align: center;
-  border-radius: 20px;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-  max-width:800px;
-  padding: 4rem;
-  opacity:0.655
-
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
-input, select, button {
-  margin: 0.5rem 0.25rem;
-  padding: 0.5rem;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+.topnav .search-container{
+  float: right;
 }
 
-button {
-  background-color: #060606;
-  color: rgb(253, 251, 251);
-  cursor: pointer;
+form{
+  background-color:  #530802;
+  width: 200px;
+  height: 43px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
 }
 
-button:hover {
-  background-color: #a33c55;
+input {
+  all: unset;
+  font: 15px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
 }
 
-#watchlist li {
-  margin: 0.5rem 0;
+.thumbnail {
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
 }
 
-.hidden {
-  display: none;
+.column {
+  float:left;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+.card{
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #151f30;
+
 }
